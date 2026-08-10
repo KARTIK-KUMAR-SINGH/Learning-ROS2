@@ -1,0 +1,18 @@
+# ROS 2
+build/
+install/
+log/
+
+# VS Code
+.vscode/
+*.vc.db
+*.vc.db-wal
+*.vc.db-shm
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
