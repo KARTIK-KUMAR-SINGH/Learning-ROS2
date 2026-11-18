@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "robot_news_subscriber = learning_subscriber.practice1:main"
+            "robot_news_subscriber = learning_subscriber.practice1:main",
+            "robot_count_subscriber = learning_subscriber.practice2:main",
+            "robot_temprature = learning_subscriber.practice3:main"
         ],
     },
 )

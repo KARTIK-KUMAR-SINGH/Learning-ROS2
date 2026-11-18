@@ -30,6 +30,9 @@ setup(
             "add_two_ints_server = my_py_pkg.add_two_ints_server:main",
             "add_two_ints_client_no_oop = my_py_pkg.add_two_ints_client_no_oop:main",
             "add_two_ints_client_opp = my_py_pkg.add_two_ints_client_opp:main",
+            "testing_node = my_py_pkg.node:main" ,
+            "publishing_node = my_py_pkg.publisher:main",
+            "subscribing_node = my_py_pkg.subscriber:main"
         ],
     },
 )
